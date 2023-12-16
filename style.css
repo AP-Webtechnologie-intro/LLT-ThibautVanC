@@ -3,15 +3,51 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
-   }
-.bton-group{
-    background-color: white;
-    color: black;
+}
+.button1{
+    background-color: transparent;
+    color: white;
+    margin-left: 10%;
+    margin-right: 50%;
+    margin-top: 2%;
+}
+.button2{
+    background-color: transparent;
+    color: white;
+    margin-top: 2%;
+}
+.button3{
+    background-color: transparent;
+    color: white;
+    margin-top: 2%;
+}
+
+
+.button4{
+    float: right;
+    margin-top: 100px;
+    
+}
+.button5{
+    float: right;
+    margin-top: 150px;
+}
+.button6{
+    float: right;
+    margin-top: 200px;
+}
+.button7{
+    float: right;
+    margin-top: 250px;
+}
+
+
+
+.img1{
     float: left;
-    font-size: medium;
-   }
-.img2{
-    float: left;
-    width: 35%;
+    width: 15%;
     padding-left: 20px;
+    margin-left: 10%;
+    margin-top: 100px;
+    height: 50%;
 }
