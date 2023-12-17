@@ -6,48 +6,44 @@ body{
 }
 .button1{
     background-color: transparent;
+    position: fixed;
     color: white;
-    margin-left: 10%;
-    margin-right: 50%;
-    margin-top: 2%;
+    top: 10px;
+    left: 100px;
+    transition: top 0ms;
 }
 .button2{
     background-color: transparent;
+    position: fixed;
     color: white;
-    margin-top: 2%;
+    top: 10px;
+    right: 220px;
+    transition: top 0ms;
 }
 .button3{
     background-color: transparent;
+    position: fixed;
     color: white;
-    margin-top: 2%;
+    top: 10px;
+    right: 50px;
+    transition: top 0ms;
 }
 
-
-.button4{
+.btn-group-vertical{
     float: right;
-    margin-top: 100px;
+    right: 135px;
+    top: 200px;
     
 }
-.button5{
-    float: right;
-    margin-top: 150px;
-}
-.button6{
-    float: right;
-    margin-top: 200px;
-}
-.button7{
-    float: right;
-    margin-top: 250px;
+
+.Img1{
+    transition: 0ms;
+    top: 400px;
+    right: 50px;
+
 }
 
 
-
-.img1{
-    float: left;
-    width: 15%;
-    padding-left: 20px;
-    margin-left: 10%;
-    margin-top: 100px;
-    height: 50%;
+p{
+    color: white
 }
