@@ -29,9 +29,17 @@ body{
     transition: top 0ms;
 }
 
-.btn-group-vertical{
-    float: right;
-    right: 135px;
-    top: 200px;
-    
+p{
+    color: white;
+    width: 1000px;
+    vertical-align: auto;
 }
+
+.raket1{
+   float: left;
+   width: 200px;
+   height: 450px;
+   margin-left: 60px;
+   margin-top: 200px;
+}
+class="btn-group-vertical" display="block" role="group" aria-label="Vertical button group"
