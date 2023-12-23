@@ -4,42 +4,27 @@ body{
     background-size: 100%;
     background-attachment: fixed;
 }
-.button1{
-    background-color: transparent;
-    position: fixed;
+nav{
+    background: transparent;
+    height: 80px;
+    width: 100%;
+}
+.logo{
     color: white;
-    top: 10px;
-    left: 100px;
-    transition: top 0ms;
+    font-size: 40px;
+    line-height: 80px;
+    font-weight: bold;
 }
-.button2{
-    background-color: transparent;
-    position: fixed;
+ul{
+    float: right;
+    margin-right: 20px;
+}
+li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.TopNavbar{
     color: white;
-    top: 10px;
-    right: 220px;
-    transition: top 0ms;
+text-transform: uppercase;
 }
-.button3{
-    background-color: transparent;
-    position: fixed;
-    color: white;
-    top: 10px;
-    right: 50px;
-    transition: top 0ms;
-}
-
-p{
-    color: white;
-    width: 1000px;
-    vertical-align: auto;
-}
-
-.raket1{
-   float: left;
-   width: 200px;
-   height: 450px;
-   margin-left: 60px;
-   margin-top: 200px;
-}
-class="btn-group-vertical" display="block" role="group" aria-label="Vertical button group"
