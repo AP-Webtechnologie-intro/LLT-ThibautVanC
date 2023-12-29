@@ -4,3 +4,9 @@ body{
     background-size: 100%;
     background-attachment: fixed;
 }
+nav{
+    color: red;
+}
+p{
+    color: white;
+}
