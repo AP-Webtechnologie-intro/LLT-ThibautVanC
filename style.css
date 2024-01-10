@@ -7,4 +7,15 @@ body{
 
 p{
     color: white;
+    padding-top: 120px;
+}
+.container{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 8fr 8fr 8fr;
+    column-gap: 50px;
+}
+img{
+    height: 400px;
+    width: 250px;
 }

@@ -9,7 +9,7 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>    
 <body>
-  <nav class="navbar navbar-expand-sm bg-light">
+  <nav class="navbar navbar-expand-sm bg-light navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
     <div class="container-fluid">
       <ul class="navbar-nav">
         <li class="nav-item">
@@ -18,8 +18,13 @@
         <li class="nav-item">
           <a class="nav-link" href="Missions.html">Missions</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Rockets.html">Rockets</a>
+        <li class="dropdown show">
+          <a class="nav-link dropdown-toggle" href="#" role="nav-link" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Rockets</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" href="Falcon1.html">Falcon1</a>
+          <a class="dropdown-item" href="Falcon9.html">Falcon9</a>
+          <a class="dropdown-item" href="Starship.html">Starship</a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Objective.html">Objective</a>
@@ -30,9 +35,8 @@
         <li class="dropdown show">
           <a class="nav-link dropdown-toggle" href="#" role="nav-link" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item" href="#">Map</a>
-          <a class="dropdown-item" href="#">API</a>
-          <a class="dropdown-item" href="#">Writer</a>
+          <a class="dropdown-item" href="Map.html">Map</a>
+          <a class="dropdown-item" href="Writer.html">Writer</a>
           </div>
         </li>
         <li class="nav-item">
@@ -61,7 +65,13 @@
   <link rel="stylesheet" href="css/MapStyle.css">
 
   <script>
-    var map = L.map('map').setView([33.920757402814445, -118.32794888616947],13);
+    var map = L.map('map').setView([37.23392439309999, -115.78851249903657],13);
+  </script>
+  <script>
+    var popup = L.popup()
+    .setLatLng([37.23772912064689, -115.83662635856254])
+    .setContent("Headquarters SpaceX4Fans")
+    .openOn(map);
   </script>
   <script>
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -70,7 +80,7 @@
 }).addTo(map);
   </script>
   <script>
-    var bounds = [[33.92121554192868, -118.32917427510219], [33.92007723779542, -118.3268548038802]];
+    var bounds = [[37.2472361192673, -115.87173859729089], [37.21594788672944, -115.78079381616601]];
     L.rectangle(bounds, {color: "#ff7800", weight: 3
 }).addTo(map);
   </script>
